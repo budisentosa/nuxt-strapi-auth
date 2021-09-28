@@ -23,7 +23,7 @@
     },
     "group": {
       "model": "group",
-      "via": "students"
+      "via": "student"
     }
   }
 }

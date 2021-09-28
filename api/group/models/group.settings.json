@@ -31,9 +31,9 @@
       "via": "groups",
       "model": "type"
     },
-    "students": {
+    "student": {
       "via": "group",
-      "collection": "student"
+      "model": "student"
     }
   }
 }
