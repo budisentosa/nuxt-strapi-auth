@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "name": "student",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "studentName": {
+      "type": "string"
+    },
+    "studentNim": {
+      "type": "string"
+    },
+    "angkatan": {
+      "type": "string"
+    },
+    "group": {
+      "model": "group",
+      "via": "students"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groups",
+  "info": {
+    "name": "Group",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "groupName": {
+      "type": "string"
+    },
+    "groupDescription": {
+      "type": "richtext"
+    },
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "group"
+    },
+    "srl": {
+      "via": "groups",
+      "model": "srl"
+    },
+    "type": {
+      "via": "groups",
+      "model": "type"
+    },
+    "students": {
+      "via": "group",
+      "collection": "student"
+    }
+  }
+}

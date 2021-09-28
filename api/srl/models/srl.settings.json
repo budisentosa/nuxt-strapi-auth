@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "srls",
+  "info": {
+    "name": "srl",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "srls"
+    },
+    "groups": {
+      "unique": true,
+      "collection": "group",
+      "via": "srl"
+    },
+    "level": {
+      "type": "string"
+    }
+  }
+}
