@@ -18,9 +18,8 @@
       "via": "srls"
     },
     "groups": {
-      "unique": true,
-      "collection": "group",
-      "via": "srl"
+      "via": "srl",
+      "collection": "group"
     },
     "level": {
       "type": "string"

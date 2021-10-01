@@ -22,8 +22,8 @@
       "type": "string"
     },
     "group": {
-      "model": "group",
-      "via": "student"
+      "via": "students",
+      "model": "group"
     }
   }
 }

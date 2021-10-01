@@ -15,8 +15,8 @@
       "type": "string"
     },
     "groups": {
-      "collection": "group",
-      "via": "type"
+      "via": "type",
+      "collection": "group"
     }
   }
 }
