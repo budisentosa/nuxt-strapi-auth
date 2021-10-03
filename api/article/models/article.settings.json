@@ -32,11 +32,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "users_permissions_user": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "articles"
     }
   }
 }

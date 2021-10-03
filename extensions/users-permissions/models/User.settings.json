@@ -59,10 +59,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "articles": {
-      "via": "users_permissions_user",
-      "collection": "article"
-    },
     "group": {
       "via": "users_permissions_users",
       "model": "group"

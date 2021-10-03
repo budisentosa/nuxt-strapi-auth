@@ -19,9 +19,9 @@
       "type": "richtext"
     },
     "users_permissions_users": {
+      "via": "group",
       "plugin": "users-permissions",
-      "collection": "user",
-      "via": "group"
+      "collection": "user"
     },
     "srl": {
       "via": "groups",
